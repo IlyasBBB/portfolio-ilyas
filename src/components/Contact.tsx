@@ -47,17 +47,17 @@ const Contact = () => {
         {
             name: 'Email',
             icon: <Email />,
-            link: 'mailto:votre.email@example.com',
+            link: 'ilyas.ben-alla@etu.ec-lyon.fr',
         },
         {
             name: 'LinkedIn',
             icon: <LinkedIn />,
-            link: 'https://www.linkedin.com/in/votre-profil',
+            link: 'https://www.linkedin.com/in/ilyas-ben-alla-b795911a5',
         },
         {
             name: 'GitHub',
             icon: <GitHub />,
-            link: 'https://github.com/votre-username',
+            link: 'https://github.com/IlyasBBB',
         },
     ];
 

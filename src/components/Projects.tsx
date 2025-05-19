@@ -11,7 +11,7 @@ const Projects = () => {
         {
             title: t('projects.eccforum.title'),
             description: t('projects.eccforum.description'),
-            image: "/project-eccforum.jpg",
+            image: process.env.PUBLIC_URL + '/site_php.png',
             technologies: ["PHP", "MySQL", "HTML", "CSS"],
             github: "",
             demo: "https://forum.centrale-casablanca.net/"
@@ -19,7 +19,7 @@ const Projects = () => {
         {
             title: t('projects.ticketmanager.title'),
             description: t('projects.ticketmanager.description'),
-            image: "/project-ticketmanager.jpg",
+            image: process.env.PUBLIC_URL + '/project-ticketmanager.jpg',
             technologies: ["Django", "Bootstrap", "HTML", "CSS", "JavaScript"],
             github: "https://github.com/IlyasBBB/Gestion-de-projets.git",
             demo: ""
@@ -27,7 +27,7 @@ const Projects = () => {
         {
             title: t('projects.django.title'),
             description: t('projects.django.description'),
-            image: "/project-django.jpg",
+            image: process.env.PUBLIC_URL + '/project-django.jpg',
             technologies: ["Python", "Django", "HTML", "CSS", "JavaScript"],
             github: "https://github.com/IlyasBBB/CodeCheck.git",
             demo: ""
@@ -35,7 +35,7 @@ const Projects = () => {
         {
             title: t('projects.media.title'),
             description: t('projects.media.description'),
-            image: "/project-media.jpg",
+            image: process.env.PUBLIC_URL + '/multimédia.png',
             technologies: ["JavaScript", "HTML", "CSS", "YouTube API", "Spotify API"],
             github: "https://github.com/IlyasBBB/Lecteur-Multim-dia.git",
             demo: ""
@@ -43,7 +43,7 @@ const Projects = () => {
         {
             title: t('projects.game2048.title'),
             description: t('projects.game2048.description'),
-            image: "/project-2048.jpg",
+            image: process.env.PUBLIC_URL + '/Jeu2048.png',
             technologies: ["C++", "QML", "Qt"],
             github: "https://gitlab.ec-lyon.fr/benallai/2048_ilyas-ben-alla.git",
             demo: ""
@@ -51,7 +51,7 @@ const Projects = () => {
         {
             title: t('projects.portfolio.title'),
             description: t('projects.portfolio.description'),
-            image: "/project-portfolio.jpg",
+            image: process.env.PUBLIC_URL + '/Portfolio.png',
             technologies: ["React", "TypeScript", "Material-UI", "Framer Motion", "TailwindCSS"],
             github: "",
             demo: ""
