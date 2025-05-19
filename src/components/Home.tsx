@@ -158,7 +158,7 @@ const Home: React.FC = () => {
                         >
                             <Box
                                 component="img"
-                                src={process.env.PUBLIC_URL + '/photo.png'}
+                                src="/photo.png"
                                 alt="Ilyas BEN ALLA"
                                 sx={{
                                     width: '100%',
