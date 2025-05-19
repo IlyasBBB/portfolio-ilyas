@@ -19,7 +19,7 @@ const Projects = () => {
         {
             title: t('projects.ticketmanager.title'),
             description: t('projects.ticketmanager.description'),
-            image: process.env.PUBLIC_URL + 'Cosumar.jpeg',
+            image: process.env.PUBLIC_URL + '/Cosumar.jpeg',
             technologies: ["Django", "Bootstrap", "HTML", "CSS", "JavaScript"],
             github: "https://github.com/IlyasBBB/Gestion-de-projets.git",
             demo: ""
