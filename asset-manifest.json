@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/portfolio-ilyas/static/css/main.51efe67b.css",
+    "main.js": "/portfolio-ilyas/static/js/main.1fbe16b6.js",
+    "index.html": "/portfolio-ilyas/index.html",
+    "main.51efe67b.css.map": "/portfolio-ilyas/static/css/main.51efe67b.css.map",
+    "main.1fbe16b6.js.map": "/portfolio-ilyas/static/js/main.1fbe16b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51efe67b.css",
+    "static/js/main.1fbe16b6.js"
+  ]
+}
