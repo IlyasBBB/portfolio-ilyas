@@ -19,7 +19,7 @@ const Projects = () => {
         {
             title: t('projects.ticketmanager.title'),
             description: t('projects.ticketmanager.description'),
-            image: process.env.PUBLIC_URL + '/Capture d\'écran 2025-05-19 084202.png',
+            image: process.env.PUBLIC_URL + 'Cosumar.jpeg',
             technologies: ["Django", "Bootstrap", "HTML", "CSS", "JavaScript"],
             github: "https://github.com/IlyasBBB/Gestion-de-projets.git",
             demo: ""
@@ -27,7 +27,7 @@ const Projects = () => {
         {
             title: t('projects.django.title'),
             description: t('projects.django.description'),
-            image: process.env.PUBLIC_URL + '/project-django.jpg',
+            image: process.env.PUBLIC_URL + '/Capture d\'écran 2025-05-19 084202.png',
             technologies: ["Python", "Django", "HTML", "CSS", "JavaScript"],
             github: "https://github.com/IlyasBBB/CodeCheck.git",
             demo: ""
@@ -78,7 +78,7 @@ const Projects = () => {
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.5, delay: index * 0.2 }}
                                 >
-                                    <Card elevation={3} sx={{ display: 'flex', flexDirection: 'column', minHeight: 430, height: 'auto' }}>
+                                    <Card elevation={3} sx={{ display: 'flex', flexDirection: 'column', minHeight: 480, height: 'auto' }}>
                                         <CardMedia
                                             component="img"
                                             image={project.image}
