@@ -78,20 +78,20 @@ const Projects = () => {
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.5, delay: index * 0.2 }}
                                 >
-                                    <Card elevation={3} sx={{ display: 'flex', flexDirection: 'column', height: 430 }}>
+                                    <Card elevation={3} sx={{ display: 'flex', flexDirection: 'column', minHeight: 430, height: 'auto' }}>
                                         <CardMedia
                                             component="img"
                                             image={project.image}
                                             alt={project.title}
                                             sx={{
-                                                height: 180,
+                                                height: 150,
                                                 width: '100%',
                                                 objectFit: 'contain',
                                                 background: '#f5f5f5',
                                                 borderRadius: 2,
-                                                mt: 2,
+                                                mt: 1,
                                                 mb: 1,
-                                                p: 1
+                                                p: 0.5
                                             }}
                                         />
                                         <CardContent sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
