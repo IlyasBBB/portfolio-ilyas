@@ -53,8 +53,8 @@ const Projects = () => {
             description: t('projects.portfolio.description'),
             image: process.env.PUBLIC_URL + '/Portfolio.png',
             technologies: ["React", "TypeScript", "Material-UI", "Framer Motion", "TailwindCSS"],
-            github: "",
-            demo: ""
+            demo: "https://ilyasbbb.github.io/portfolio-ilyas/",
+            github: "https://github.com/IlyasBBB/portfolio-ilyas.git"
         },
     ];
 
@@ -70,27 +70,6 @@ const Projects = () => {
                         {t('projects.title')}
                     </Typography>
 
-                    <Box sx={{ display: 'flex', gap: 2, mb: 4 }}>
-                        <Button
-                            variant="contained"
-                            color="primary"
-                            href="https://ilyasbbb.github.io/portfolio-ilyas/"
-                            target="_blank"
-                            sx={{ fontWeight: 600 }}
-                        >
-                            Voir le site en ligne
-                        </Button>
-                        <Button
-                            variant="outlined"
-                            color="primary"
-                            href="https://github.com/IlyasBBB/portfolio-ilyas.git"
-                            target="_blank"
-                            sx={{ fontWeight: 600 }}
-                        >
-                            Voir le code sur GitHub
-                        </Button>
-                    </Box>
-
                     <Grid container spacing={4}>
                         {projects.map((project, index) => (
                             <Grid item xs={12} md={6} key={index}>
@@ -102,9 +81,18 @@ const Projects = () => {
                                     <Card elevation={3} sx={{ display: 'flex', flexDirection: 'column', height: 430 }}>
                                         <CardMedia
                                             component="img"
-                                            height="200"
                                             image={project.image}
                                             alt={project.title}
+                                            sx={{
+                                                height: 180,
+                                                width: '100%',
+                                                objectFit: 'contain',
+                                                background: '#f5f5f5',
+                                                borderRadius: 2,
+                                                mt: 2,
+                                                mb: 1,
+                                                p: 1
+                                            }}
                                         />
                                         <CardContent sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
                                             <Typography variant="h5" gutterBottom>
