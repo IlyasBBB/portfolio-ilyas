@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-ilyas/static/css/main.51efe67b.css",
-    "main.js": "/portfolio-ilyas/static/js/main.e61e116f.js",
+    "main.js": "/portfolio-ilyas/static/js/main.eabea64e.js",
     "index.html": "/portfolio-ilyas/index.html",
     "main.51efe67b.css.map": "/portfolio-ilyas/static/css/main.51efe67b.css.map",
-    "main.e61e116f.js.map": "/portfolio-ilyas/static/js/main.e61e116f.js.map"
+    "main.eabea64e.js.map": "/portfolio-ilyas/static/js/main.eabea64e.js.map"
   },
   "entrypoints": [
     "static/css/main.51efe67b.css",
-    "static/js/main.e61e116f.js"
+    "static/js/main.eabea64e.js"
   ]
 }
