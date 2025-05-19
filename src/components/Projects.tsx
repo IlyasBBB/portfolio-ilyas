@@ -70,6 +70,27 @@ const Projects = () => {
                         {t('projects.title')}
                     </Typography>
 
+                    <Box sx={{ display: 'flex', gap: 2, mb: 4 }}>
+                        <Button
+                            variant="contained"
+                            color="primary"
+                            href="https://ilyasbbb.github.io/portfolio-ilyas/"
+                            target="_blank"
+                            sx={{ fontWeight: 600 }}
+                        >
+                            Voir le site en ligne
+                        </Button>
+                        <Button
+                            variant="outlined"
+                            color="primary"
+                            href="https://github.com/IlyasBBB/portfolio-ilyas.git"
+                            target="_blank"
+                            sx={{ fontWeight: 600 }}
+                        >
+                            Voir le code sur GitHub
+                        </Button>
+                    </Box>
+
                     <Grid container spacing={4}>
                         {projects.map((project, index) => (
                             <Grid item xs={12} md={6} key={index}>
