@@ -19,7 +19,7 @@ const Projects = () => {
         {
             title: t('projects.ticketmanager.title'),
             description: t('projects.ticketmanager.description'),
-            image: process.env.PUBLIC_URL + '/project-ticketmanager.jpg',
+            image: process.env.PUBLIC_URL + '/Capture d\'écran 2025-05-19 084202.png',
             technologies: ["Django", "Bootstrap", "HTML", "CSS", "JavaScript"],
             github: "https://github.com/IlyasBBB/Gestion-de-projets.git",
             demo: ""
@@ -87,8 +87,7 @@ const Projects = () => {
                                                 height: 150,
                                                 width: '100%',
                                                 objectFit: 'contain',
-                                                background: '#f5f5f5',
-                                                borderRadius: 2,
+                                                borderRadius: '16px',
                                                 mt: 1,
                                                 mb: 1,
                                                 p: 0.5
